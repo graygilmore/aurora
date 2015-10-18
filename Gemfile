@@ -14,9 +14,9 @@ group :development, :test do
   gem "pry-rails"
   gem "spring"
   gem "factory_girl"
+  gem "rspec-rails"
 end
 
 group :test do
-  gem "rspec"
   gem "shoulda-matchers"
 end
