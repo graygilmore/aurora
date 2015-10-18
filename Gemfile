@@ -13,7 +13,6 @@ gem "haml"
 
 group :development, :test do
   gem "pry-rails"
-  gem "spring"
   gem "factory_girl"
   gem "rspec-rails"
 end
