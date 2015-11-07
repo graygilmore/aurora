@@ -4,14 +4,14 @@ RSpec.describe ProductsController, type: :controller do
   let(:valid_attributes) {
     {
       name: "Leather Wallet",
-      price: 2999 # $29.99
+      price_cents: 2999 # $29.99
     }
   }
 
   let(:invalid_attributes) {
     {
       name: "",
-      price: -1
+      price_cents: -1
     }
   }
 
