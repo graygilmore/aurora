@@ -4,4 +4,8 @@ FactoryGirl.define do
     email "test@example.com"
     password "testing"
   end
+
+  factory :admin, parent: :user do
+    admin true
+  end
 end
